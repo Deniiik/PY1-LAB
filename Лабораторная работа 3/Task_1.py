@@ -1,4 +1,3 @@
-# TODO Напишите функцию для поиска индекса товара
 def search_index(items, i):
     if i in items:
         return items.index(i)
