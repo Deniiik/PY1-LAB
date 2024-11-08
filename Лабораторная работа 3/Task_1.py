@@ -1,6 +1,6 @@
-def search_index(items, i):
-    if i in items:
-        return items.index(i)
+def search_index(items, items_to_find):
+    if items_to_find in items:
+        return items.index(items_to_find)
     else:
         return None
 
